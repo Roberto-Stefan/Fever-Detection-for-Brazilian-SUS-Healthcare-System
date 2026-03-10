@@ -173,7 +173,7 @@ Essas imagens mostram o protótipo utilizado durante o desenvolvimento.
 </p>
 
 <p align="center">
-  <img src="prototype/Fluxograma_do_Projeto.png" width="250">
+  <img src="fluxograma/Fluxograma_do_Projeto - Principal.png" width="250">
 </p>
 
 ---
