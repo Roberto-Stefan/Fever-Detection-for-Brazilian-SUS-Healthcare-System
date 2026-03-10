@@ -34,6 +34,7 @@ To improve measurement reliability, the system performs:
 This method significantly **reduces measurement noise and improves accuracy**.
 
 Because the measurement is **non-contact and automated**, the system enables **much faster screening in waiting lines**, allowing healthcare personnel to quickly identify patients requiring urgent medical attention.
+
 ---
 
 # Demonstration Video / Vídeo de Demonstração
