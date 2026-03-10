@@ -161,14 +161,14 @@ Essas imagens mostram o protótipo utilizado durante o desenvolvimento.
 ## Prototype Screens
 
 <p align="center">
-  <img src="prototype/Buzzer.png" width="250">
+  <img src="prototype/Prototype.png" width="250">
   <img src="prototype/Esp32.png" width="250">
   <img src="prototype/Finger Sensor Support.png" width="250">
 </p>
 
 <p align="center">
   <img src="prototype/Led_Rgb_Ky_009 .png" width="250">
-  <img src="prototype/Prototype.png" width="250">
+  <img src="prototype/Buzzer.png" width="250">
   <img src="prototype/Temperature Sensor_MLX_90614.png" width="250">
 </p>
 
