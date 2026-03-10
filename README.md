@@ -35,7 +35,7 @@ This method significantly **reduces measurement noise and improves accuracy**.
 
 Because the measurement is **non-contact and automated**, the system enables **much faster screening in waiting lines**, allowing healthcare personnel to quickly identify patients requiring urgent medical attention.
 ---
----
+
 # Demonstration Video / Vídeo de Demonstração
 
 Watch the system operating in the video below:
@@ -43,7 +43,7 @@ Watch the system operating in the video below:
 Assista ao sistema em funcionamento no vídeo abaixo:
 
 https://www.youtube.com/watch?v=-At-b64NuDQ&t=55s
----
+
 ---
 
 # System Architecture
