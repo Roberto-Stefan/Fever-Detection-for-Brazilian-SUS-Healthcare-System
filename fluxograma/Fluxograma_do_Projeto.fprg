@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Fluxograma ESP32"/>
+        <attribute name="authors" value="Roberto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-15 09:47:47 "/>
+        <attribute name="created" value="Um9iZXJ0bztERVNLVE9QLU42SkwxNlQ7MjAyNC0xMi0xNDsiMDQ6NTM6MjcgIjsyOTc3"/>
+        <attribute name="edited" value="Um9iZXJ0bztERVNLVE9QLU42SkwxNlQ7MjAyNS0wMS0xNTsiMDk6NDc6NDcgIjs0NjszMTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c&#243;digoSus" type="Integer" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="febre" type="Integer" array="False" size=""/>
+            <declare name="Sim" type="Integer" array="False" size=""/>
+            <declare name="Continuar" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite (1) Para Iniciar o Programa&quot;" newline="True"/>
+            <input variable="Continuar"/>
+            <while expression="Continuar = 1">
+                <output expression="&quot;Insira a Sequ&#234;ncia de Numeros da Carteira do SUS&quot;" newline="True"/>
+                <input variable="c&#243;digoSus"/>
+                <if expression="c&#243;digoSus=12345">
+                    <then>
+                        <output expression="&quot;Roberto Leonel Stefan - CPF 12764950802&quot;" newline="True"/>
+                        <output expression="&quot;Insira a Sua Idade&quot;" newline="True"/>
+                        <input variable="idade"/>
+                        <if expression="idade&gt;=60">
+                            <then>
+                                <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                <comment text="Buzzer"/>
+                                <comment text="Sensor Temperatura"/>
+                                <input variable="febre"/>
+                                <if expression="febre&gt;35.9">
+                                    <then>
+                                        <comment text="Led Vermelho"/>
+                                        <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                        <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 1 - Preferencial&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <comment text="Led Verde"/>
+                                        <output expression="&quot;Febre Normal - Fila 1 - Preferencial&quot;" newline="True"/>
+                                    </else>
+                                </if>
+                                <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                <input variable="Continuar"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Pessoas Com Defici&#234;ncia - Gestantes - Lactantes - Crian&#231;as de Colo - Pessoas Obesas&quot;" newline="True"/>
+                                <output expression="&quot;Sim - Digite 1&quot;" newline="True"/>
+                                <output expression="&quot;N&#227;o - Digite Qualquer Numero&quot;" newline="True"/>
+                                <input variable="Sim"/>
+                                <if expression="Sim=1">
+                                    <then>
+                                        <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                        <comment text="Buzzer"/>
+                                        <comment text="Sensor Temperatura"/>
+                                        <input variable="febre"/>
+                                        <if expression="febre&gt;35.9">
+                                            <then>
+                                                <comment text="Led Vermelho"/>
+                                                <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 2 - Preferencial&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <comment text="Led Verde"/>
+                                                <output expression="&quot;Febre Normal - Fila 2 - Preferencial&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                        <comment text="Buzzer"/>
+                                        <comment text="Sensor Temperatura"/>
+                                        <input variable="febre"/>
+                                        <if expression="febre&gt;35.9">
+                                            <then>
+                                                <comment text="Led Vermelho"/>
+                                                <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 3 - Normal&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <comment text="Led Verde"/>
+                                                <output expression="&quot;Febre Normal - Fila 3 - Normal&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                                <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                <input variable="Continuar"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="c&#243;digoSus=54321">
+                            <then>
+                                <output expression="&quot;Maria Clara Silva - CPF 98765432101&quot;" newline="True"/>
+                                <output expression="&quot;Insira a Sua Idade&quot;" newline="True"/>
+                                <input variable="idade"/>
+                                <if expression="idade&gt;=60">
+                                    <then>
+                                        <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                        <comment text="Buzzer"/>
+                                        <comment text="Sensor Temperatura"/>
+                                        <input variable="febre"/>
+                                        <if expression="febre&gt;35.9">
+                                            <then>
+                                                <comment text="Led Vermelho"/>
+                                                <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 1 - Preferencial&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <comment text="Led Verde"/>
+                                                <output expression="&quot;Febre Normal - Fila 1 - Preferencial&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                        <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                        <input variable="Continuar"/>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;Pessoas Com Defici&#234;ncia - Gestantes - Lactantes - Crian&#231;as de Colo - Pessoas Obesas&quot;" newline="True"/>
+                                        <output expression="&quot;Sim - Digite 1&quot;" newline="True"/>
+                                        <output expression="&quot;N&#227;o - Digite Qualquer Numero&quot;" newline="True"/>
+                                        <input variable="Sim"/>
+                                        <if expression="Sim=1">
+                                            <then>
+                                                <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                                <comment text="Buzzer"/>
+                                                <comment text="Sensor Temperatura"/>
+                                                <input variable="febre"/>
+                                                <if expression="febre&gt;35.9">
+                                                    <then>
+                                                        <comment text="Led Vermelho"/>
+                                                        <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                        <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 2 - Preferencial&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <comment text="Led Verde"/>
+                                                        <output expression="&quot;Febre Normal - Fila 2 - Preferencial&quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                                <comment text="Buzzer"/>
+                                                <comment text="Sensor Temperatura"/>
+                                                <input variable="febre"/>
+                                                <if expression="febre&gt;35.9">
+                                                    <then>
+                                                        <comment text="Led Vermelho"/>
+                                                        <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                        <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 3 - Normal&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <comment text="Led Verde"/>
+                                                        <output expression="&quot;Febre Normal - Fila 3 - Normal&quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                        <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                        <input variable="Continuar"/>
+                                    </else>
+                                </if>
+                            </then>
+                            <else>
+                                <if expression="c&#243;digoSus=67890">
+                                    <then>
+                                        <output expression="&quot;Carlos Eduardo Gomes - CPF 12309845677&quot;" newline="True"/>
+                                        <output expression="&quot;Insira a Sua Idade&quot;" newline="True"/>
+                                        <input variable="idade"/>
+                                        <if expression="idade&gt;=60">
+                                            <then>
+                                                <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                                <comment text="Buzzer"/>
+                                                <comment text="Sensor Temperatura"/>
+                                                <input variable="febre"/>
+                                                <if expression="febre&gt;35.9">
+                                                    <then>
+                                                        <comment text="Led Vermelho"/>
+                                                        <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                        <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 1 - Preferencial&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <comment text="Led Verde"/>
+                                                        <output expression="&quot;Febre Normal - Fila 1 - Preferencial&quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                                <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                                <input variable="Continuar"/>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;Pessoas Com Defici&#234;ncia - Gestantes - Lactantes - Crian&#231;as de Colo - Pessoas Obesas&quot;" newline="True"/>
+                                                <output expression="&quot;Sim - Digite 1&quot;" newline="True"/>
+                                                <output expression="&quot;N&#227;o - Digite Qualquer Numero&quot;" newline="True"/>
+                                                <input variable="Sim"/>
+                                                <if expression="Sim=1">
+                                                    <then>
+                                                        <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                                        <comment text="Buzzer"/>
+                                                        <comment text="Sensor Temperatura"/>
+                                                        <input variable="febre"/>
+                                                        <if expression="febre&gt;35.9">
+                                                            <then>
+                                                                <comment text="Led Vermelho"/>
+                                                                <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                                <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 2 - Preferencial&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <comment text="Led Verde"/>
+                                                                <output expression="&quot;Febre Normal - Fila 2 - Preferencial&quot;" newline="True"/>
+                                                            </else>
+                                                        </if>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;Coloque o Dedo Indicador Em Cima do Sensor e Aguarde&quot;" newline="True"/>
+                                                        <comment text="Buzzer"/>
+                                                        <comment text="Sensor Temperatura"/>
+                                                        <input variable="febre"/>
+                                                        <if expression="febre&gt;35.9">
+                                                            <then>
+                                                                <comment text="Led Vermelho"/>
+                                                                <output expression="&quot;Febre Alta&quot;" newline="True"/>
+                                                                <output expression="&quot;Aten&#231;&#227;o ! Prioridade Sala 3 - Normal&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <comment text="Led Verde"/>
+                                                                <output expression="&quot;Febre Normal - Fila 3 - Normal&quot;" newline="True"/>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                                <output expression="&quot;Deseja Realizar Outro Atendimento? (1 - Sim, 0 - N&#227;o)&quot;" newline="True"/>
+                                                <input variable="Continuar"/>
+                                            </else>
+                                        </if>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;Programa Encerrado - Favor Reiniciar&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
