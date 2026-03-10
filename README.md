@@ -168,7 +168,7 @@ Essas imagens mostram o protótipo utilizado durante o desenvolvimento.
 
 <p align="center">
   <img src="prototype/Led_Rgb_Ky_009 .png" width="250">
-  <img src="prototype/Buzzer.png" width="260">
+  <img src="prototype/Buzzer.png" width="255">
   <img src="prototype/Temperature Sensor_MLX_90614.png" width="250">
 </p>
 
