@@ -163,7 +163,7 @@ Essas imagens mostram o protótipo utilizado durante o desenvolvimento.
 <p align="center">
   <img src="prototype/Buzzer.png" width="250">
   <img src="prototype/Esp32.png" width="250">
-  <img src="prototype/Finger Sensor Support.png" width="200">
+  <img src="prototype/Finger Sensor Support.png" width="250">
 </p>
 
 <p align="center">
