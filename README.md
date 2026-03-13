@@ -1,10 +1,10 @@
 # Smart Fever Detection and Medical Triage System (ESP32)
 
-[![Platform STM32](https://img.shields.io/badge/Platform-STM32-blue?style=flat-square&logo=stmicroelectronics&logoColor=white)](https://www.st.com/content/st_com/en.html)
-[![Platform Arduino](https://img.shields.io/badge/Platform-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![Language C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)](https://isocpp.org/)
-[![Platform KiCad](https://img.shields.io/badge/Platform-KiCad-314CB6?style=flat-square&logo=kicad&logoColor=white)](https://www.kicad.org/)
-[![Demo YouTube](https://img.shields.io/badge/DEMO-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=-At-b64NuDQ&t=55s)
+[![Platform STM32](https://img.shields.io/badge/Platform-STM32-blue?style=plastic&logo=stmicroelectronics&logoColor=white)](https://www.st.com/content/st_com/en.html)
+[![Platform Arduino](https://img.shields.io/badge/Platform-Arduino-00979D?style=plastic&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Language C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=plastic&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![Platform KiCad](https://img.shields.io/badge/Platform-KiCad-314CB6?style=plastic&logo=kicad&logoColor=white)](https://www.kicad.org/)
+[![Demo YouTube](https://img.shields.io/badge/DEMO-YouTube-FF0000?style=plastic&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=-At-b64NuDQ&t=55s)
 
 ---
 
